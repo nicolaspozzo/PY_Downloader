@@ -12,7 +12,7 @@ download_path = "./Downloads"
 
 try:
     download_video.download(download_path) # folder path to download the video
+    print("Video downloaded successfully")  
 except:
     print("Error")
 
-print("Video downloaded successfully")
